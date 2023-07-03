@@ -1,0 +1,25 @@
+.collection-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.collection-panel,
+.collection-panel img {
+    border-radius: 5px;
+}
+
+
+.collection-panel {
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(216, 240, 214);
+    border: 2px solid grey;
+}
+
+.collection-panel img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
